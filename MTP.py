@@ -35,7 +35,7 @@ def generate_response(input):
     return res.choices[0].message.content
 
 # Streamlit UI
-st.title("Bank Marketing Service Predictor")
+st.title("Bank Marketing Service Suggestor")
 
 # Mode Selection
 mode = st.radio("Select Mode", ("Form Mode", "Export Mode"))
